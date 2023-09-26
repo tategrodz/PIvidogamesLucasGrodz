@@ -1,0 +1,76 @@
+/* Estilos generales */
+.titles {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: -3px;
+}
+
+.divName {
+    margin-top: -50px;
+}
+
+.imgs {
+    max-width: 100%;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+}
+
+.subTitles {
+    color: azure;
+    font-weight: bold;
+    text-align: start;
+    padding-right: 10px;
+}
+
+.divRating {
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+
+/* Estilos de botones */
+.btn {
+  
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding: 4px;
+}
+
+.btn:hover {
+    color: white;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+    z-index: 1;
+    transition: all .5s ease-in-out;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 700px) {
+    .divSort {
+        margin-left: 15px;
+    }
+
+    .titles {
+        font-size: 18px;
+        font-weight: normal;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: start;
+    }
+
+    .subTitles {
+        font-weight: normal;
+        font-size: 16px;
+    }
+
+    .divName {
+        margin-left: 0px;
+    }
+
+    .divRating {
+        margin-left: 0px;
+    }
+}

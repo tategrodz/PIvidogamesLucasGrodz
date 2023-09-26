@@ -1,0 +1,38 @@
+.button {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los botones */
+    align-items: center; /* Centra verticalmente los botones */
+    gap: 20px; /* Espacio entre los botones */
+  }
+  
+  .eachBtn {
+    font-size: 18px;
+    font-weight: bold;
+    color: #DAA520; /* Color similar al borde de las cartas */
+    background-color: #1E6823; /* Color similar al fondo de las cartas */
+    border: 2px solid #DAA520; /* Color similar al borde de las cartas */
+    border-radius: 10px; /* Borde redondeado menos circular */
+    cursor: pointer;
+    padding: 10px 20px; /* Espaciado interno */
+    transition: all 0.3s ease-in-out; /* Efecto de transición suave */
+  }
+  
+  .eachBtn:hover {
+    font-size: 20px;
+    background-color: #DAA520; /* Color similar al borde de las cartas en hover */
+    color: #1E6823; /* Color de texto en hover */
+    border-color: #1E6823; /* Color del borde en hover */
+  }
+  
+  @media screen and (max-width: 700px) {
+    .button {
+      flex-direction: column; /* Coloca los botones en una columna en pantallas pequeñas */
+      text-align: center; /* Centra el texto en pantallas pequeñas */
+    }
+  
+    .eachBtn {
+      font-size: 16px;
+      padding: 8px 16px; /* Reduce el espaciado en pantallas pequeñas */
+    }
+  }
+  

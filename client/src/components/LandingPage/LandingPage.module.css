@@ -1,0 +1,100 @@
+.divLP {
+  margin: 0;
+  background-image: url("../../images/imageninicio.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divTextBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.text {
+  color: rgb(155, 155, 155);
+  font-size: 60px;
+  margin: 0;
+  padding-bottom: 70px;
+}
+
+.btn {
+  font-size: 30px;
+  color: rgb(240, 235, 245);
+  background-color: #42302e; /* Tono de madera */
+  border-color: rgb(240, 235, 245);
+  border-radius: 10%;
+  cursor: pointer;
+  padding: 6px 20px; /* Aumenta el espacio horizontal para centrarlo mejor */
+  margin-top: auto; /* Centra verticalmente */
+}
+
+.btn:hover {
+  font-size: 33px;
+  color: black;
+  background-color: #8B4513;
+  border-color: black;
+}
+
+.img {
+  display: flex;
+  width: 245px;
+  height: 245px;
+  margin-top: 130px;
+  padding-left: 195px;
+}
+
+@media screen and (max-width: 700px) {
+  .divLP {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+  }
+
+  .divTextBtn {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 18px;
+    margin-right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    align-items: center;
+  }
+
+  .text {
+    font-size: 28px;
+    padding-bottom: 70px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .btn {
+    font-size: 22px;
+    padding: 6px 20px;
+    margin-top: auto;
+  }
+
+  .btn:hover {
+    font-size: 25px;
+  }
+
+  .img {
+    width: 100px;
+    height: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 18px;
+    padding-left: 0px;
+  }
+}
